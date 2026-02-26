@@ -1,10 +1,12 @@
-LidLock
+LidLock (Minimize Update)
 ======
-Lock Windows laptop when lid is closed
+Lock Windows laptop and minimize all windows when the lid is closed.
 
 
 ## Introduction
-LidLock is a simple app written in C for Windows to automatically lock the screen when the lid is closed. This resembles the same behavior as macOS, when one needs the laptop not to sleep but just to be locked when closing the lid.
+LidLock is a simple, highly optimized app written in C for Windows to automatically lock the screen when the lid is closed. This resembles the same behavior as macOS, ensuring the laptop does not go to sleep but remains securely locked.
+
+**🌟 What's new in this fork:** Before locking the workstation, this version automatically sends a command to minimize all active windows. This enhances privacy by ensuring your personal apps, documents, or chats are not visible on the screen for a split second when you later unlock the device.
 
 The app also works with clamshell mode and external monitors. It will ignore locking if lid is open and external monitors are connected, and re-locks if the lid is closed and external monitors are disconnected.
 
